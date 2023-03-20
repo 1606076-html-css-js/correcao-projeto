@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color: #3B3D5D;
+}
+
+.cabecalho {
+    background-color: #1F2235;
+    padding: 15px;
+}
+
+.cabecalho__menu a {
+    color: white;
+    text-decoration: none;
+
+    padding: 4px;
+    margin-right: 5px;
+}
+
+/* .cabecalho__menu a:nth-child(1) {
+    background-color: #FF4A57;
+} */
+
+.cabecalho__menu-selected {
+    background-color: #FF4A57;
+}
+
+
+main {
+    padding: 30px 20px 20px 40px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="contato.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0f1e4b64a0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html">Home</a>
+            <a class="cabecalho__menu-selected" href="">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="containerFormulario">
+            <input id="input_nome" placeholder="Digite seu nome" type="text" name="">
+            <input id="input_email" placeholder="Digite seu email" type="text" name="">
+            <textarea id="input_mensagem" placeholder="Digite sua mensagem" name="" cols="30" rows="10"></textarea>
+
+            <button onclick="clickDoBotao()" class="containerFormulario__botao" >Enviar</button>
+            <div id="status" class="containerFormulario__status">Sucesso!</div>
+        </div>
+
+        <div id="resultados" class="containerRetornos">
+            <div class="containerRetornos__informacoes">
+                <h3>Retorno da API</h3>
+                <p id="retornoNome">Nome:</p>
+                <p id="retornoEmail">Email:</p>
+                <p id="retornoMensagem">Mensagem:</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

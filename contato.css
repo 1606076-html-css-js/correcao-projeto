@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
+}
+
+.containerFormulario {
+    /* border: solid red 2px; */
+    width: 350px;
+}
+
+.containerFormulario > * {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.containerFormulario input,
+.containerFormulario textarea {
+}
+
+.containerFormulario__botao {
+    margin-top: 0px;
+    background-color: #191A2C;
+    color: white;
+}
+
+.containerRetornos {
+    color: white;
+}
+
+
+.containerRetornos {
+    margin-top: 5px;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.containerFormulario__status {
+    background-color: green;
+}
+
+.containerFormulario__status, .containerRetornos {
+    display: none;
+}
